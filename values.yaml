@@ -1,0 +1,7 @@
+tigeraOperator:
+  image: tigera/operator
+  version: v1.30.7
+  registry: 192.168.56.1:5000
+calicoctl:
+  image: 192.168.56.1:5000/calico/ctl
+  tag: v3.26.3
