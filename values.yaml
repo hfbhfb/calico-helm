@@ -1,3 +1,9 @@
+
+installation:
+  enabled: true
+  kubernetesProvider: ''
+  registry: '192.168.56.1:5000'
+
 tigeraOperator:
   image: tigera/operator
   version: v1.30.7

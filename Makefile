@@ -1,4 +1,9 @@
 
+#             make install
+
+#             make uninstall
+
+
 helmAppName=calico1
 
 build-template:

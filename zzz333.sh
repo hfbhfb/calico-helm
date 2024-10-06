@@ -9,6 +9,14 @@ k get po -A
 k get node
 
 
+# 查看 ippool 的状态（排查下为什么nodeport类型的负载转发不了）
+
+kubectl get IPPool
+kubectl get IPPool default-ipv4-ippool -oyaml
+kubectl edit IPPool default-ipv4-ippool
+
+
+
 # 上传镜像到本地
 
 docker push 192.168.56.1:5000/calico/typha:v3.26.3 

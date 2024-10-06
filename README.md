@@ -5,14 +5,18 @@
 
 ## helmget.sh  (安装指定版本)
 
-
-
-```sh
-
 make install
 
-kubectl api-resources|grep crd.projectcalico.org > 1.txt
 
-```
 
+kubectl get installations default -oyaml
+
+kubectl api-resources |grep install
+
+
+
+
+
+# calico参数说明
+https://docs.tigera.io/calico/latest/reference/installation/api#operator.tigera.io/v1.ImageSet
 
